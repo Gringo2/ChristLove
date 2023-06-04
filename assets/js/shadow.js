@@ -392,7 +392,7 @@ customElements.define('gallery-component', class extends HTMLElement {
         <div class="banner-card">
 
           <img src="./assets/images/birthday1.jpg" width="550" height="450" loading="lazy"
-            alt="Discount For Delicious Tasty Burgers!" class="banner-img">
+             class="banner-img">
 
           
         </div>
@@ -401,7 +401,7 @@ customElements.define('gallery-component', class extends HTMLElement {
       <li class="banner-item banner-sm">
         <div class="banner-card">
 
-          <img src="./assets/images/birthday2.jpg" width="550" height="465" loading="lazy" alt="Delicious Pizza"
+          <img src="./assets/images/birthday2.jpg" width="550" height="465" loading="lazy" 
             class="banner-img">
 
           
@@ -412,7 +412,7 @@ customElements.define('gallery-component', class extends HTMLElement {
       <li class="banner-item banner-sm">
         <div class="banner-card">
 
-          <img src="./assets/images/birthday3.jpg" width="550" height="465" loading="lazy" alt="American Burgers"
+          <img src="./assets/images/birthday3.jpg" width="550" height="465" loading="lazy" 
             class="banner-img">
 
           
@@ -423,7 +423,7 @@ customElements.define('gallery-component', class extends HTMLElement {
       <li class="banner-item banner-md">
         <div class="banner-card">
 
-          <img src="./assets/images/birthday4.jpg" width="550" height="220" loading="lazy" alt="Tasty Buzzed Pizza"
+          <img src="./assets/images/birthday4.jpg" width="550" height="220" loading="lazy" 
             class="banner-img">
 
           
