@@ -391,18 +391,20 @@ customElements.define('gallery-component', class extends HTMLElement {
       <li class="banner-item banner-lg">
         <div class="banner-card">
 
-          <img src="./assets/images/charity1.jpg" width="550" height="450" loading="lazy"
+          <img src="./assets/images/birthday1.jpg" width="550" height="450" loading="lazy"
             alt="Discount For Delicious Tasty Burgers!" class="banner-img">
 
-          <div class="banner-item-content">
-            <p class="banner-subtitle">50% Off Now!</p>
+          
+        </div>
+      </li>
 
-            <h3 class="banner-title">Discount For Delicious Tasty Burgers!</h3>
+      <li class="banner-item banner-sm">
+        <div class="banner-card">
 
-            <p class="banner-text">Sale off 50% only this week</p>
+          <img src="./assets/images/birthday2.jpg" width="550" height="465" loading="lazy" alt="Delicious Pizza"
+            class="banner-img">
 
-            <button class="btn">Order Now</button>
-          </div>
+          
 
         </div>
       </li>
@@ -410,33 +412,10 @@ customElements.define('gallery-component', class extends HTMLElement {
       <li class="banner-item banner-sm">
         <div class="banner-card">
 
-          <img src="./assets/images/charity2.jpg" width="550" height="465" loading="lazy" alt="Delicious Pizza"
+          <img src="./assets/images/birthday3.jpg" width="550" height="465" loading="lazy" alt="American Burgers"
             class="banner-img">
 
-          <div class="banner-item-content">
-            
-
-            
-
-            <button class="btn">Order Now</button>
-          </div>
-
-        </div>
-      </li>
-
-      <li class="banner-item banner-sm">
-        <div class="banner-card">
-
-          <img src="./assets/images/charity3.jpg" width="550" height="465" loading="lazy" alt="American Burgers"
-            class="banner-img">
-
-          <div class="banner-item-content">
-            <h3 class="banner-title">American Burgers</h3>
-
-            <p class="banner-text">50% off Now</p>
-
-            <button class="btn">Order Now</button>
-          </div>
+          
 
         </div>
       </li>
@@ -444,17 +423,10 @@ customElements.define('gallery-component', class extends HTMLElement {
       <li class="banner-item banner-md">
         <div class="banner-card">
 
-          <img src="./assets/images/charity4.jpg" width="550" height="220" loading="lazy" alt="Tasty Buzzed Pizza"
+          <img src="./assets/images/birthday4.jpg" width="550" height="220" loading="lazy" alt="Tasty Buzzed Pizza"
             class="banner-img">
 
-          <div class="banner-item-content">
-            <h3 class="banner-title">Tasty Buzzed Pizza</h3>
-
-            <p class="banner-text">Sale off 50% only this week</p>
-
-            <button class="btn">Order Now</button>
-          </div>
-
+          
         </div>
       </li>
 
