@@ -146,8 +146,8 @@ customElements.define('aboutus-component', class extends HTMLElement {
 <section  class="section about" id="about" aria-label="about">
   <div class="container">
 
-    <div class="about-banner img-holder" style="--width: 720; --height: 960;">
-      <img src="./assets/images/about-banner.jpg" width="720" height="960" loading="lazy" alt="about banner"
+    <div class="about-banner img-holder" style="--width: 720; --height: 700;">
+      <img src="./assets/images/mainser.jpg" width="720" height="960" loading="lazy" alt="about banner"
         class="img-cover">
 
       <button class="play-btn" aria-label="Play video">
@@ -160,20 +160,17 @@ customElements.define('aboutus-component', class extends HTMLElement {
       <h2 class="h2 section-title">About Us</h2>
 
       <p class="section-text">
-        Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc
-        tinci dunt nec
-        elei fend et tiram.
+      የእግዚአብሔር ታላቅነት መገለጫ ቤተክርስቲያን በኢትዮጵያና ከኢትዮጵያ ውጭ የሚደረጉ የወንጌል አገልግሎቶችን እንድትደግፉ በጌታ ፍቅር ጥሪ ታቀርባለች።
       </p>
 
-      <h3 class="h3">Who We Are</h3>
+      <!--<h3 class="h3">Who We Are</h3>-->
 
       <p class="section-text">
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
-        rem aperiam,
-        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+      በጌታ የተወደዳችሁ የክርስቶስ ቤተሰቦች: ባለፉት ጥቂት አመታት በዚህ ወንጌል አገልግሎት ከቤተ ክርስቲያን ጋር አብራችሁ በገንዘባችሁ፣ 
+      በምክራችሁ ፣በፀሎታችሁ ፣በጉልበታችሁ ከጎናችን የቆማችሁ ሁላችሁንም እግዚአብሄር አምላክ አብዝቶ ይባርካችሁ።
       </p>
 
-      <h3 class="h3">Our Success</h3>
+      <!--<h3 class="h3">Our Success</h3>-->
 
       <ul class="about-list">
 
@@ -181,7 +178,12 @@ customElements.define('aboutus-component', class extends HTMLElement {
           <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
 
           <p class="section-text">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          "...አሁን ሥራችሁን እንዲሁም በፊትም ሆነ አሁን ቅዱሳንን በመርዳት ስለ ስሙ ያሳያችሁትን ፍቅር አይረስም።"
+
+          
+          
+          
+          
           </p>
         </li>
 
@@ -189,9 +191,7 @@ customElements.define('aboutus-component', class extends HTMLElement {
           <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
 
           <p class="section-text">
-            It is a long established fact that a reader will be distracted by the readable content of a page when
-            looking at its
-            layout.
+          በተጨማሪም ይህን መልእክት ለሌሎች በማህበራዊ ድህረ ገጾች በማጋራት አብረውን ይተባበሩ። 
           </p>
         </li>
 
@@ -199,21 +199,13 @@ customElements.define('aboutus-component', class extends HTMLElement {
           <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
 
           <p class="section-text">
-            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-            classical Latin
-            literature.
+          እግዚአብሄር ዘመናችሁን፣ ህይወታችሁን፣ ሥራችሁን፣ አገልግሎታችሁን፣ ቤተሰባችሁን እና ሁለንተናችሁን ይባርክ።
           </p>
         </li>
 
       </ul>
 
-      <h3 class="h3">Our Mission</h3>
-
-      <p class="section-text">
-        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
-        atque corrupti
-        quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in.
-      </p>
+      
 
     </div>
 
@@ -367,6 +359,199 @@ customElements.define('activity-component', class extends HTMLElement {
         </div>
       </section>
 
+</body>
+  `;
+}
+connectedCallback() {
+  while (this.childNodes.length > 0) {
+      this.shadowRoot.appendChild(this.childNodes[0]);
+  }
+}
+});
+customElements.define('gallery-component', class extends HTMLElement {
+  constructor() {
+    super(); // always call super() first in the constructor.
+
+        // Attach a shadow root to <fancy-tabs>.
+  const shadowRoot = this.attachShadow({mode: 'open'});
+  shadowRoot.innerHTML = `
+  <body class="one">
+  <head>
+  <link rel="stylesheet" href="./assets/css/gallery.css"/>
+  </head>
+  <!-- 
+  - #BANNER
+-->
+
+<section style="margin-top: 50px;" class="section section-divider gray banner">
+  <div class="container">
+
+    <ul class="banner-list">
+
+      <li class="banner-item banner-lg">
+        <div class="banner-card">
+
+          <img src="./assets/images/charity1.jpg" width="550" height="450" loading="lazy"
+            alt="Discount For Delicious Tasty Burgers!" class="banner-img">
+
+          <div class="banner-item-content">
+            <p class="banner-subtitle">50% Off Now!</p>
+
+            <h3 class="banner-title">Discount For Delicious Tasty Burgers!</h3>
+
+            <p class="banner-text">Sale off 50% only this week</p>
+
+            <button class="btn">Order Now</button>
+          </div>
+
+        </div>
+      </li>
+
+      <li class="banner-item banner-sm">
+        <div class="banner-card">
+
+          <img src="./assets/images/charity2.jpg" width="550" height="465" loading="lazy" alt="Delicious Pizza"
+            class="banner-img">
+
+          <div class="banner-item-content">
+            
+
+            
+
+            <button class="btn">Order Now</button>
+          </div>
+
+        </div>
+      </li>
+
+      <li class="banner-item banner-sm">
+        <div class="banner-card">
+
+          <img src="./assets/images/charity3.jpg" width="550" height="465" loading="lazy" alt="American Burgers"
+            class="banner-img">
+
+          <div class="banner-item-content">
+            <h3 class="banner-title">American Burgers</h3>
+
+            <p class="banner-text">50% off Now</p>
+
+            <button class="btn">Order Now</button>
+          </div>
+
+        </div>
+      </li>
+
+      <li class="banner-item banner-md">
+        <div class="banner-card">
+
+          <img src="./assets/images/charity4.jpg" width="550" height="220" loading="lazy" alt="Tasty Buzzed Pizza"
+            class="banner-img">
+
+          <div class="banner-item-content">
+            <h3 class="banner-title">Tasty Buzzed Pizza</h3>
+
+            <p class="banner-text">Sale off 50% only this week</p>
+
+            <button class="btn">Order Now</button>
+          </div>
+
+        </div>
+      </li>
+
+    </ul>
+
+  </div>
+</section>
+
+<section class="section  gray banner">
+<div class="container">
+
+    <ul class="banner-list">
+    <li class="banner-item banner-sm">
+        <div class="banner-card">
+
+          <img src="./assets/images/charity1.jpg" width="550" height="465" loading="lazy" alt="charity"
+            class="banner-img">
+
+          
+
+        </div>
+      </li>
+      <li class="banner-item banner-sm">
+        <div class="banner-card">
+
+          <img src="./assets/images/charity2.jpg" width="550" height="465" loading="lazy" alt="charity"
+            class="banner-img">
+
+         
+
+        </div>
+      </li>
+      <li class="banner-item banner-sm">
+        <div class="banner-card">
+
+          <img src="./assets/images/charity3.jpg" width="550" height="465" loading="lazy" alt="charity"
+            class="banner-img">
+
+          
+
+        </div>
+      </li>
+      <li class="banner-item banner-sm">
+        <div class="banner-card">
+
+          <img src="./assets/images/charity4.jpg" width="550" height="465" loading="lazy" alt="charity"
+            class="banner-img">
+
+          
+
+        </div>
+      </li>
+    </ul>
+    <ul style="margin-top: 10px;"class="banner-list">
+    <li class="banner-item banner-sm">
+        <div class="banner-card">
+
+          <img src="./assets/images/charity5.jpg" width="550" height="465" loading="lazy" alt="charity"
+            class="banner-img">
+
+          
+
+        </div>
+      </li>
+      <li class="banner-item banner-sm">
+        <div class="banner-card">
+
+          <img src="./assets/images/charity6.jpg" width="550" height="465" loading="lazy" alt="charity"
+            class="banner-img">
+
+         
+
+        </div>
+      </li>
+      <li class="banner-item banner-sm">
+        <div class="banner-card">
+
+          <img src="./assets/images/charity7.jpg" width="550" height="465" loading="lazy" alt="charity"
+            class="banner-img">
+
+          
+
+        </div>
+      </li>
+      <li class="banner-item banner-sm">
+        <div class="banner-card">
+
+          <img src="./assets/images/charity8.jpg" width="550" height="465" loading="lazy" alt="charity"
+            class="banner-img">
+
+          
+
+        </div>
+      </li>
+    </ul>
+</div>
+</section>
 </body>
   `;
 }

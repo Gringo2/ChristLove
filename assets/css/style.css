@@ -1220,7 +1220,7 @@ body {
    */
 
   .hero {
-    /* background-size: contain; */
+    background-size: cover; 
     text-align: left;
   }
 
