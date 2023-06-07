@@ -63,7 +63,7 @@
      * spacing
      */
   
-    --section-padding: 60px;
+    --section-padding: 30px;
   
     /**
      * shadow
@@ -186,11 +186,14 @@
   }
   
   .btn-primary {
-    background-image: var(--gradient);
+    background-color: #F19700;
     background-size: 1000%;
   }
   
-  .btn-primary:is(:hover, :focus) { background-position: bottom right; }
+  .btn-primary:is(:hover, :focus) { 
+    background-position: bottom right; 
+    background-color: #ffa913;
+  }
   
   .btn-secondary {
     background-color: var(--white-1);
@@ -912,7 +915,7 @@
        * spacing
        */
   
-      --section-padding: 100px;
+      --section-padding: 40px;
   
     }
   

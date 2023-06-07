@@ -10,7 +10,7 @@
   <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="shortcut icon" href="./faviconm.svg" type="image/svg+xml">
 
   <!-- 
     - custom css link
@@ -39,11 +39,12 @@
 
 <body class="one" id="top">
 
+  
   <!-- 
     - #HEADER
   -->
 
-  <header class="header" style="background: hsl(210, 26%, 11%);" data-header>
+  <header class="header" data-header>
     <div class="container">
 
       <a href="#" class="logo">
@@ -64,7 +65,7 @@
           </li>
 
           <li>
-            <a href="about.html" class="navbar-link" data-nav-link>About Us</a>
+            <a href="about.html" class="navbar-link" data-nav-link>Support Us</a>
           </li>
 
           <li>
@@ -89,19 +90,62 @@
 
     </div>
   </header>
+  <div class="loading-container" data-loading-container>
+    <div class="loading-circle"></div>
+  </div>
 
   <script src="assets/js/shadow.js"></script>
+  
   </body>
   <body>
-     <!-- 
+    
+    <!-- <zoom-component>
+
+    </zoom-component> -->
+    
+    <package-component>
+
+    </package-component>
+
+   <!-- 
         - #ABOUT
       -->
-<gallery-component>
-  
-</gallery-component>
+
+      <section class="section about" id="about" aria-label="about">
+        
+        <div  class="container">
+          
+          <div class="about-banner has-after">
+            <iframe width="500" height="280" src="https://www.youtube.com/embed/JmTj6cgO8KQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+
+          <div class="about-content">
+            <iframe width="500" height="280" src="https://www.youtube.com/embed/SpJ7bM1E3fc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section about" id="about" aria-label="about">
+        
+        <div  class="container">
+          
+          <div class="about-banner has-after">
+            <iframe width="500" height="280" src="https://www.youtube.com/embed/d0kd-bOJq64" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+
+          <div class="about-content">
+            
+            <iframe width="500" height="280" src="https://www.youtube.com/embed/5fAMPyC5vTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+
+        </div>
+      </section>
   <!-- 
     - #FOOTER
   -->
+
 
   <footer class="footer">
 
@@ -121,22 +165,26 @@
 
           <div class="wrapper">
 
-            <img src="./assets/images/footer-clock.png" width="34" height="34" loading="lazy" alt="Clock">
+            <img src="./assets/images/clock.svg" width="34" height="34" loading="lazy" alt="Clock">
 
             <ul class="footer-brand-list">
 
               <li>
-                <p class="footer-brand-title">Monday - Friday</p>
+                <p class="footer-brand-title">Wednesday</p>
 
-                <p>7:00Am - 10:00Pm</p>
+                <p>4:00Pm</p>
               </li>
 
               <li>
-                <p class="footer-brand-title">Saturday - Sunday</p>
+                <p class="footer-brand-title">Saturday</p>
 
-                <p>7:00Am - 2:00Pm</p>
+                <p>9:00Am</p>
               </li>
+              <li>
+                <p class="footer-brand-title">Sunday</p>
 
+                <p>9:00Am</p>
+              </li>
             </ul>
 
           </div>
@@ -154,7 +202,7 @@
           </li>
 
           <li>
-            <a href="#" class="footer-link">About Us</a>
+            <a href="#" class="footer-link">Support Us</a>
           </li>
 
           <li>
@@ -279,5 +327,8 @@
     </div>
 
   </footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="./assets/js/zoom.js"></script>
   </body>
 </body>
