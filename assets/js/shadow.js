@@ -739,7 +739,7 @@ customElements.define('package-component', class extends HTMLElement {
               <div class="package-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/Zoom1.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                  <img src="./assets/images/zoom.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
                 </figure>
 
                 <div class="card-content">
@@ -842,7 +842,7 @@ customElements.define('package-component', class extends HTMLElement {
               <div class="package-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/Zoom2.jpg" alt="Summer Holiday To The Oxolotan River" loading="lazy">
+                  <img src="./assets/images/zoom1.jpg" alt="Summer Holiday To The Oxolotan River" loading="lazy">
                 </figure>
 
                 <div class="card-content">
