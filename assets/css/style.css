@@ -960,6 +960,17 @@ body {
   #MEDIA QUERIES
 \*-----------------------------------*/
 
+@media (max-width: 993px){
+
+  .has-bg-image{
+    background-size: cover;
+    
+  }
+
+
+
+}
+
 /**
  * responsive for larger than 575px screen
  */
@@ -1319,7 +1330,7 @@ body {
      * spacing
      */
 
-    --section-padding: 60px;
+    --section-padding: 40px;
 
   }
 

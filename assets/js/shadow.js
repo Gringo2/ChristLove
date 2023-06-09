@@ -139,9 +139,7 @@ customElements.define('aboutus-component', class extends HTMLElement {
       <img src="./assets/images/mainser.jpg" width="720" height="960" loading="lazy" alt="about banner"
         class="img-cover">
 
-      <button class="play-btn" aria-label="Play video">
-        <ion-icon name="play" aria-hidden="true"></ion-icon>
-      </button>
+      
     </div>
 
     <div class="about-content">
@@ -586,7 +584,7 @@ customElements.define('bank-component', class extends HTMLElement {
         <div class="category-card">
 
           <div  class="card-icon">
-            <img  src="./assets/images/Coopbank.svg">
+            <img style="max-width: 150px;"  src="./assets/images/Coopbank.svg">
           </div>
 
           <div>
@@ -675,7 +673,7 @@ customElements.define('zoom-component', class extends HTMLElement {
               <div class="partnership-card">
 
                 <figure class="card-banner img-holder" style="--width: 640; --height: 402;">
-                  <img src="./assets/images/Zoom2.jpg" width="640" height="402" loading="lazy" alt="Join Merchant"
+                  <img src="./assets/images/Zoom2.jpg" width="640" height="402" loading="lazy" alt=""
                     class="img-cover">
                 </figure>
 
@@ -724,10 +722,10 @@ customElements.define('package-component', class extends HTMLElement {
         - #PACKAGE
       -->
 
-      <section class="package" id="package">
+      <section style="margin-top: 90px;" class="package" id="package">
         <div class="container">
 
-          <p class="section-subtitle">Popular Packeges</p>
+          <p class="section-subtitle"></p>
 
           <h2 class="h2 section-title">Join Our Zoom Meetings.</h2>
 
@@ -739,16 +737,16 @@ customElements.define('package-component', class extends HTMLElement {
               <div class="package-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/zoom.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                  <img src="./assets/images/zoom1.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
                 </figure>
 
                 <div class="card-content">
 
-                  <h3 class="h3 card-title">Experience The Great Holiday On Beach</h3>
+                  <h3 class="h3 card-title">Come and join our zoom service.</h3>
 
                   <p class="card-text">
-                    Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque,
-                    cras, aspernatur.
+                  ''Prophet Maranata is inviting you to a scheduled Zoom meeting
+                  Preaching,deliverance and prophecy time. Come and be part of Gods blessing.''
                   </p>
 
                   <ul class="card-meta-list">
@@ -799,7 +797,7 @@ customElements.define('package-component', class extends HTMLElement {
                   <div class="meta-box">
                     <ion-icon name="time"></ion-icon>
 
-                    <p class="text">9:00 PM</p>
+                    <p class="text">4:00 ማታ local time</p>
                   </div>
                 </li>
 
@@ -831,124 +829,7 @@ customElements.define('package-component', class extends HTMLElement {
                     <span>Passcode PMS</span>
                   </p>
 
-                  <button class="btn btn-secondary">Join Meeting</button>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="package-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/zoom1.jpg" alt="Summer Holiday To The Oxolotan River" loading="lazy">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3 card-title">Summer Holiday To The Oxolotan River</h3>
-
-                  <p class="card-text">
-                    Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque,
-                    cras, aspernatur.
-                  </p>
-
-                  <ul class="card-meta-list">
-
-                    <li class="card-meta-item">
-                      <div class="meta-box">
-                        <ion-icon name="time"></ion-icon>
-
-                        <p class="text">7D/6N</p>
-                      </div>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <div class="meta-box">
-                        <ion-icon name="people"></ion-icon>
-
-                        <p class="text">pax: 10</p>
-                      </div>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <div class="meta-box">
-                        <ion-icon name="location"></ion-icon>
-
-                        <p class="text">Malaysia</p>
-                      </div>
-                    </li>
-
-                  </ul>
-                  <ul class="card-meta-list">
-
-                    <li class="card-meta-item">
-                      <div class="meta-box">
-                        <ion-icon name="time"></ion-icon>
-
-                        <p class="text">7D/6N</p>
-                      </div>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <div class="meta-box">
-                        <ion-icon name="people"></ion-icon>
-
-                        <p class="text">pax: 10</p>
-                      </div>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <div class="meta-box">
-                        <ion-icon name="location"></ion-icon>
-
-                        <p class="text">Malaysia</p>
-                      </div>
-                    </li>
-
-                  </ul>
-                  <ul class="card-meta-list">
-
-                    <li class="card-meta-item">
-                      <div class="meta-box">
-                        <ion-icon name="time"></ion-icon>
-
-                        <p class="text">7D/6N</p>
-                      </div>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <div class="meta-box">
-                        <ion-icon name="people"></ion-icon>
-
-                        <p class="text">pax: 10</p>
-                      </div>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <div class="meta-box">
-                        <ion-icon name="location"></ion-icon>
-
-                        <p class="text">Malaysia</p>
-                      </div>
-                    </li>
-
-                  </ul>
-
-                </div>
-
-                <div class="card-price">
-
-                 
-
-                  <p class="price">
-                  ID 6206841297
-                  
-                  <span>Passcode PMS</span>
-                  </p>
-
-                  <button class="btn btn-secondary">Join Meeting</button>
+                  <a href="https://us02web.zoom.us/j/6206841297?pwd=b3FZT2ZhN3pVNXNpc3ZOUXVHUmRHUT09" class="btn btn-secondary">Join Meeting</a>
 
                 </div>
 
@@ -956,10 +837,11 @@ customElements.define('package-component', class extends HTMLElement {
             </li>
 
            
+           
           </ul>
 
           
-          <h2 class="h2 section-title">Check Our Youtube Channel</h2>
+          <h2 style="margin-bottom: -60px;" class="h2 section-title">Check Our Youtube Channel</h2>
         </div>
       </section>
       
