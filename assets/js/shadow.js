@@ -132,7 +132,7 @@ customElements.define('aboutus-component', class extends HTMLElement {
   - #ABOUT
 -->
 
-<section  class="section about" id="about" aria-label="about">
+<section style="margin-top: 30px;"  class="section about" id="about" aria-label="about">
   <div class="container">
 
     <div class="about-banner img-holder" style="--width: 720; --height: 700;">
