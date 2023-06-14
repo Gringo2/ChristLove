@@ -545,7 +545,7 @@ customElements.define('bank-component', class extends HTMLElement {
     <ul class="grid-list">
 
       <li>
-        <div class="category-card">
+        <div style="max-width: 90%;margin:auto;" class="category-card">
 
           <div class="card-icon">
           <img style="max-width:50px;" src="./assets/images/cbe.jpg">
@@ -563,10 +563,10 @@ customElements.define('bank-component', class extends HTMLElement {
       </li>
 
       <li>
-        <div class="category-card">
+        <div style="max-width: 90%;margin:auto;" class="category-card">
 
           <div class="card-icon">
-            <img style="min-width: 200px;" src="./assets/images/awash.svg">
+            <img style="min-width: 100px;" src="./assets/images/awash.svg">
           </div>
 
           <div>
@@ -581,10 +581,10 @@ customElements.define('bank-component', class extends HTMLElement {
       </li>
 
       <li>
-        <div class="category-card">
+        <div style="max-width: 90%;margin:auto;" class="category-card">
 
           <div  class="card-icon">
-            <img style="max-width: 150px;"  src="./assets/images/Coopbank.svg">
+            <img style="max-width: 100px;"  src="./assets/images/Coopbank.svg">
           </div>
 
           <div>
@@ -599,10 +599,10 @@ customElements.define('bank-component', class extends HTMLElement {
       </li>
 
       <li>
-        <div class="category-card">
+        <div style="max-width: 90%;margin:auto;" class="category-card">
 
           <div class="card-icon">
-          <img  src="./assets/images/abyssinia.png">
+          <img style="max-width: 100px;" src="./assets/images/abyssinia.png">
           </div>
 
           <div>
