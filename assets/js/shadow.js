@@ -592,7 +592,7 @@ customElements.define('bank-component', class extends HTMLElement {
               <a href="#">1070000012191(Copretiv oromiya)</a>
             </h3>
 
-            <span class="card-meta">Maranata Shimelis</span>
+            <span class="card-meta">Yegziabher talakinet megelecha betechrstian</span>
           </div>
 
         </div>
@@ -841,7 +841,7 @@ customElements.define('package-component', class extends HTMLElement {
           </ul>
 
           
-          <h2 style="margin-bottom: -60px;" class="h2 section-title">Check Our Youtube Channel</h2>
+          
         </div>
       </section>
       
