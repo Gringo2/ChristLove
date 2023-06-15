@@ -536,7 +536,7 @@ customElements.define('bank-component', class extends HTMLElement {
 -->
 
 <section  class="section category" aria-label="category">
-  <div class="container">
+  <div style="margin: auto; padding: 0px 0px;" class="container">
 
     <!--<p class="section-subtitle">Course Categories</p>-->
 
@@ -548,14 +548,14 @@ customElements.define('bank-component', class extends HTMLElement {
         <div style="max-width: 90%;margin:auto;" class="category-card">
 
           <div class="card-icon">
-          <img style="max-width:50px;" src="./assets/images/cbe.jpg">
+          <img class="card-img" style="max-width:50px;" src="./assets/images/cbe.jpg">
           </div>
 
           <div>
             <h3 class="h3 card-title">
-              <a href="#">1000347718959 (ንግድ ባንክ)</a>
+              <a href="#">1000347718959</a>
             </h3>
-
+            <span class="card-meta">CBE</span>
             <span class="card-meta">Maranata Shimelis</span>
           </div>
 
@@ -566,14 +566,14 @@ customElements.define('bank-component', class extends HTMLElement {
         <div style="max-width: 90%;margin:auto;" class="category-card">
 
           <div class="card-icon">
-            <img style="min-width: 100px;" src="./assets/images/awash.svg">
+            <img class="card-img" style="min-width: 100px;" src="./assets/images/awash.svg">
           </div>
 
           <div>
             <h3 class="h3 card-title">
-              <a href="#">01320076893600 (አዋሽ) </a>
+              <a href="#">01320076893600</a>
             </h3>
-
+            <span class="card-meta">Awash Bank</span>
             <span class="card-meta">Maranata Shimelis</span>
           </div>
 
@@ -584,14 +584,14 @@ customElements.define('bank-component', class extends HTMLElement {
         <div style="max-width: 90%;margin:auto;" class="category-card">
 
           <div  class="card-icon">
-            <img style="max-width: 100px;"  src="./assets/images/Coopbank.svg">
+            <img class="card-img" style="max-width: 100px;"  src="./assets/images/Coopbank.svg">
           </div>
 
           <div>
             <h3 class="h3 card-title">
-              <a href="#">1070000012191(Copretiv oromiya)</a>
+              <a href="#">1070000012191</a>
             </h3>
-
+            <span class="card-meta">Coop</span>
             <span class="card-meta">Yegziabher talakinet megelecha betechrstian</span>
           </div>
 
@@ -602,14 +602,14 @@ customElements.define('bank-component', class extends HTMLElement {
         <div style="max-width: 90%;margin:auto;" class="category-card">
 
           <div class="card-icon">
-          <img style="max-width: 100px;" src="./assets/images/abyssinia.png">
+          <img class="card-img" style="max-width: 100px;" src="./assets/images/abyssinia.png">
           </div>
 
           <div>
             <h3 class="h3 card-title">
-              <a href="#">42852333 (አቢሲንያ)</a>
+              <a href="#">42852333</a>
             </h3>
-
+            <span class="card-meta">Abyssinia Bank</span>
             <span class="card-meta">Maranata Shimelis</span>
           </div>
 

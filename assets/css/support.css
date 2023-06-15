@@ -482,8 +482,8 @@
     background-color: var(--icon-bg);
     color: var(--icon-color);
     font-size: 30px;
-    height: 60px;
-    min-width: 60px;
+   
+    min-width: 40%;
     display: grid;
     place-items: center;
     border-radius: var(--radius-4);
@@ -941,11 +941,26 @@
   /*-----------------------------------*\
     #MEDIA QUERIES
   \*-----------------------------------*/
-  
+   /**
+   * responsive for larger than 375px screen
+   */
+  @media (max-width: 574px) {
+    
+    .card-img{
+      max-width: 80px !important;
+    }
+
+  }
+
+
+
   /**
    * responsive for larger than 575px screen
    */
+
   
+
+
   @media (min-width: 575px) {
   
     /**
